@@ -23,14 +23,17 @@ jobs:
         uses: android-actions/setup-android@v3
 
       - name: Generate local.properties
+        env:
+          APP_API_SECRET: ${{ secrets.API_SHARED_SECRET }}
+          APP_BACKEND_URL: ${{ secrets.BACKEND_BASE_URL }}
         run: |
           cat > local.properties <<EOF
-          API_SHARED_SECRET=ci-build-placeholder-not-used-at-runtime
-          BACKEND_BASE_URL=https://placeholder.example.com/
+          API_SHARED_SECRET=${APP_API_SECRET}
+          BACKEND_BASE_URL=${APP_BACKEND_URL}
           sdk.dir=$ANDROID_HOME
           EOF
-          echo "local.properties generated:"
-          cat local.properties
+          echo "local.properties generated (secrets masques par GitHub):"
+          cat local.properties | sed 's/SECRET=.*/SECRET=***/'
 
       - name: Make gradlew executable
         run: |
