@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PubIA Karibou</string>
+
+    <!-- Navigation -->
+    <string name="action_back">Retour</string>
+    <string name="action_next">Suivant</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_done">Terminer</string>
+
+    <!-- Ecran accueil -->
+    <string name="home_welcome">Bienvenue dans PubIA Karibou</string>
+    <string name="home_subtitle">Genere des publicites video IA pour tes bougies Karibou.</string>
+    <string name="home_new_project">Nouvelle pub</string>
+
+    <!-- Etapes -->
+    <string name="step_avatar">Etape 1 — Avatar</string>
+    <string name="step_product">Etape 2 — Produit</string>
+    <string name="step_script">Etape 3 — Script</string>
+    <string name="step_options">Etape 4 — Options</string>
+    <string name="step_generation">Etape 5 — Generation</string>
+    <string name="step_preview">Etape 6 — Apercu</string>
+    <string name="step_publish">Etape 7 — Publication Facebook</string>
+
+    <!-- Conformite legale (Phase 6) -->
+    <string name="legal_ai_mention">Cette publicite contient du contenu genere par IA.</string>
+    <string name="legal_consent_title">Consentement d\'utilisation d\'image</string>
+    <string name="legal_consent_body">Je certifie avoir le droit d\'utiliser l\'image de la personne (moi-meme ou consentement ecrit signe).</string>
+</resources>

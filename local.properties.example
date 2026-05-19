@@ -1,0 +1,9 @@
+# Copie ce fichier en local.properties (non-commite, c'est dans .gitignore).
+#
+# Android Studio ecrit aussi sdk.dir dans local.properties — laisse-le tranquille.
+#
+# Pour le mode debug avec backend local : laisse BACKEND_BASE_URL vide (default 10.0.2.2)
+# Pour pointer sur Railway : mets l'URL complete avec slash final.
+
+API_SHARED_SECRET=remplace-par-la-meme-chaine-que-dans-backend/.env
+BACKEND_BASE_URL=http://10.0.2.2:3000/

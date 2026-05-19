@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclure les preferences chiffrees et la base Room des sauvegardes auto -->
+    <exclude domain="sharedpref" path="secure_prefs.xml" />
+    <exclude domain="database" path="pubia_karibou.db" />
+</full-backup-content>

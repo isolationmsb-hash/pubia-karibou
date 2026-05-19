@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Theme XML minimal — utilise au lancement de l'Activity avant que
+      le theme Compose ne prenne le relais. Heritage Material 3 NoActionBar.
+    -->
+    <style name="Theme.PubIAKaribou" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#8A4B0F</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

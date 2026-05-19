@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reference XML pour ressources non-Compose (notifications, widgets...) -->
+    <color name="karibou_amber_dark">#8A4B0F</color>
+    <color name="karibou_amber">#D4904A</color>
+    <color name="karibou_cream">#FFF4E2</color>
+    <color name="karibou_chocolate">#3E2A14</color>
+    <color name="karibou_sage">#6B8E5A</color>
+</resources>
